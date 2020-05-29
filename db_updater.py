@@ -5,6 +5,7 @@ session = cluster.connect('ipdatabase')
 company_names = ["Amazon","Google","Microsoft","Facebook","Apple"]
 
 company_name = company_names[0]
+print company_name
 ip_address = "99.84.115.72"
 
 # to put data in the database
