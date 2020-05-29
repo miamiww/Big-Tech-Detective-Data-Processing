@@ -4,7 +4,7 @@ session = cluster.connect('ipdatabase')
 
 company_names = ['Amazon','Google','Microsoft','Facebook','Apple']
 
-company_name = company_names[0]
+company_name = 'Amazon'
 print company_name
 ip_address = '99.84.115.72'
 
