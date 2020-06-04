@@ -1,0 +1,8 @@
+RADB_QUERY(){
+        ASNUM=$1
+        shift;
+        echo 'Querying WHOIS for' $ASNUM
+        result=$(whois -h whois.radb.net -- "-i origin $ASNUM" \| grep -Eo "([0-9.]+){4}/[0-9]+" | grep route)
+        echo $result
+}
+RADB_QUERY $1
