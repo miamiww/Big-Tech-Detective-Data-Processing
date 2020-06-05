@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function extract_ip_ranges() {
+    local json=$1
+    local filters=$2
+    local array=$3
+    local prefix=$4
+
+    local group='group_by(.'$prefix')'
+    local map='map({ "ip": .[0].'$prefix', "regions": map(.region) | unique, "services": map(.service) | unique })'
+
+    local to_string='.ip + " \"" + (.regions | sort | join (", ")) + "\" \"" + (.services | sort | join (", ")) + "\""'
+    local process='[ .'$array"[]$filters ] | $group | $map | .[] | $to_string"
+
+    local ranges=$(echo "$json" | jq -r "$process" | sort -Vu)
+    echo "$ranges"
+}

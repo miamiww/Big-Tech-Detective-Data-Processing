@@ -1,5 +1,4 @@
 #!/bin/bash
-
 RADB_QUERY(){
         ASNUM=$1
         shift;
@@ -7,4 +6,16 @@ RADB_QUERY(){
         result=$(whois -h whois.radb.net -- "-i origin $ASNUM" \| grep -Eo "([0-9.]+){4}/[0-9]+" | grep route)
         echo $result
 }
-RADB_QUERY $1
+
+
+INPUT=$1
+OLDIFS=$IFS
+IFS=','
+[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
+while read f1 f2
+do
+	echo "Company: $f1"
+	echo "ASN: $f2"
+	RADB_QUERY $f2	
+done < $INPUT
+IFS=$OLDIFS
