@@ -1,0 +1,35 @@
+#!/bin/bash
+########################
+# This converts AS_* csv
+# into ip_ranges csv
+########################
+
+RIR_QUERY(){
+        COMPANY=$1
+        RIR=$2
+        shift;
+        echo "Querying $RIR for $COMPANY"
+        whois -h whois.$RIR.net $COMPANY | grep ^inet | while read -r ip; do
+			ip=${ip//[[:blank:]]/}
+			ip=${ip#"inetnum"}
+			ip=${ip#"inet6num:"}
+			ip=${ip#":"}
+			ip=${ip//[[:blank:]]/}
+			echo "$ip belongs to $COMPANY, adding to record"
+            echo "$COMPANY,$ip" >> ip_ranges.csv
+        done
+}
+
+
+# currently leaving out ARIN and LACNIC because of specifics of their query structure
+RIRS=( "apnic" "ripe" "afrinic" )
+COMPANIES=( "Microsoft" "Apple" "Amazon" "Facebook" "Google" )
+
+
+for c in "${COMPANIES[@]}"
+do 
+    for r in "${RIRS[@]}"
+    do
+        RIR_QUERY $c $r
+    done
+done
