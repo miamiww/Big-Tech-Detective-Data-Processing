@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<whois-resources xmlns:xlink="http://www.w3.org/1999/xlink">
+<service name="search"/>
+<parameters>
+    <inverse-lookup/>
+    <type-filters/>
+    <flags>
+        <flag value="no-filtering"/>
+        <flag value="no-referenced"/>
+    </flags>
+    <query-strings>
+        <query-string value="Microsoft"/>
+    </query-strings>
+    <sources>
+        <source id="ripe"/>
+    </sources>
+</parameters>
+<objects>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/31.168.142.208 - 31.168.142.211"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="31.168.142.208 - 31.168.142.211"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="31.168.142.208 - 31.168.142.211"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFTLAN"/>
+        <attribute name="country" value="IL"/>
+        <attribute name="admin-c" value="BNT1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BNT1-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="BHT2-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BHT2-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="BNT1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BNT1-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="remarks" value="please send ABUSE complains to abuse@bezeqint.net"/>
+        <attribute name="mnt-by" value="AS8551-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS8551-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="AS8551-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS8551-MNT"/>
+        </attribute>
+        <attribute name="created" value="2014-04-07T16:00:09Z"/>
+        <attribute name="last-modified" value="2014-04-07T16:00:09Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/31.168.142.224 - 31.168.142.239"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="31.168.142.224 - 31.168.142.239"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="31.168.142.224 - 31.168.142.239"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFTLAN"/>
+        <attribute name="country" value="IL"/>
+        <attribute name="admin-c" value="BNT1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BNT1-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="BHT2-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BHT2-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="BNT1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/BNT1-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="remarks" value="please send ABUSE complains to abuse@bezeqint.net"/>
+        <attribute name="mnt-by" value="AS8551-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS8551-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="AS8551-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS8551-MNT"/>
+        </attribute>
+        <attribute name="created" value="2014-04-08T16:00:10Z"/>
+        <attribute name="last-modified" value="2014-04-08T16:00:10Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/31.177.59.240 - 31.177.59.247"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="31.177.59.240 - 31.177.59.247"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="31.177.59.240 - 31.177.59.247"/>
+        <attribute name="netname" value="Microsoft"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="GR"/>
+        <attribute name="admin-c" value="LHLX1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/LHLX1-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="LHLX1-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/LHLX1-RIPE"/>
+        </attribute>
+        <attribute name="notify" value="net@lamdahellix.com"/>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="LamdaHellixNOC-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LamdaHellixNOC-MNT"/>
+        </attribute>
+        <attribute name="created" value="2016-02-28T10:18:47Z"/>
+        <attribute name="last-modified" value="2019-10-04T08:05:06Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.4.0.0 - 51.5.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.4.0.0 - 51.5.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.4.0.0 - 51.5.255.255"/>
+        <attribute name="org" value="ORG-MDMG3-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MDMG3-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="country" value="DE"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="DWP-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/DWP-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T15:57:06Z"/>
+        <attribute name="last-modified" value="2016-09-22T12:20:40Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.8.0.0 - 51.8.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.8.0.0 - 51.8.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.8.0.0 - 51.8.255.255"/>
+        <attribute name="org" value="ORG-MDMG3-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MDMG3-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="country" value="DE"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:21:42Z"/>
+        <attribute name="last-modified" value="2016-09-22T12:20:40Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.10.0.0 - 51.13.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.10.0.0 - 51.13.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.10.0.0 - 51.13.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:34:17Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:57Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.18.0.0 - 51.18.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.18.0.0 - 51.18.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.18.0.0 - 51.18.255.255"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Deutschland MCIO GmbH"/>
+        <attribute name="country" value="DE"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:38:20Z"/>
+        <attribute name="last-modified" value="2018-02-07T16:41:14Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.51.0.0 - 51.51.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.51.0.0 - 51.51.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.51.0.0 - 51.51.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:42:23Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:57Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.53.0.0 - 51.53.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.53.0.0 - 51.53.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.53.0.0 - 51.53.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:46:07Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.103.0.0 - 51.105.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.103.0.0 - 51.105.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.103.0.0 - 51.105.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:49:54Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.107.0.0 - 51.107.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.107.0.0 - 51.107.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.107.0.0 - 51.107.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:53:33Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.116.0.0 - 51.116.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.116.0.0 - 51.116.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.116.0.0 - 51.116.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T16:59:44Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.120.0.0 - 51.120.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.120.0.0 - 51.120.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.120.0.0 - 51.120.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T17:03:20Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.124.0.0 - 51.124.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.124.0.0 - 51.124.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.124.0.0 - 51.124.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T17:07:47Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.132.0.0 - 51.132.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.132.0.0 - 51.132.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.132.0.0 - 51.132.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T17:13:57Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.136.0.0 - 51.138.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.136.0.0 - 51.138.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.136.0.0 - 51.138.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T17:18:28Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/51.140.0.0 - 51.145.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="51.140.0.0 - 51.145.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="51.140.0.0 - 51.145.255.255"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Limited UK"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="LEGACY"/>
+        <attribute name="mnt-by" value="RIPE-NCC-LEGACY-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-LEGACY-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-05-21T17:21:54Z"/>
+        <attribute name="last-modified" value="2016-07-25T09:38:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/80.69.5.72 - 80.69.5.79"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="80.69.5.72 - 80.69.5.79"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="80.69.5.72 - 80.69.5.79"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT"/>
+        <attribute name="descr" value="P.O. BOX 8"/>
+        <attribute name="descr" value="CAMBERLEY United Kingdom GU15 3DD"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="BD4998-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/BD4998-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="BD4998-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/BD4998-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="HRW-NOC" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/HRW-NOC"/>
+        </attribute>
+        <attribute name="notify" value="ripe@eu.equinix.com"/>
+        <attribute name="created" value="2015-09-07T12:19:50Z"/>
+        <attribute name="last-modified" value="2015-09-07T12:19:50Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/80.69.16.8 - 80.69.16.11"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="80.69.16.8 - 80.69.16.11"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="80.69.16.8 - 80.69.16.11"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT"/>
+        <attribute name="descr" value="P.O. BOX 8"/>
+        <attribute name="descr" value="CAMBERLEY United Kingdom GU15 3DD"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="BD4998-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/BD4998-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="BD4998-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/BD4998-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="HRW-NOC" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/HRW-NOC"/>
+        </attribute>
+        <attribute name="notify" value="ripe@eu.equinix.com"/>
+        <attribute name="created" value="2015-12-23T14:12:01Z"/>
+        <attribute name="last-modified" value="2015-12-23T14:12:01Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/88.57.53.208 - 88.57.53.211"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="88.57.53.208 - 88.57.53.211"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="88.57.53.208 - 88.57.53.211"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT SRL"/>
+        <attribute name="country" value="IT"/>
+        <attribute name="admin-c" value="MC7436-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MC7436-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MC7436-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MC7436-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="INTERB-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/INTERB-MNT"/>
+        </attribute>
+        <attribute name="created" value="2007-02-08T09:31:50Z"/>
+        <attribute name="last-modified" value="2010-06-17T12:59:33Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/88.59.36.192 - 88.59.36.195"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="88.59.36.192 - 88.59.36.195"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="88.59.36.192 - 88.59.36.195"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT SRL"/>
+        <attribute name="country" value="IT"/>
+        <attribute name="admin-c" value="MC7436-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MC7436-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MC7436-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MC7436-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="INTERB-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/INTERB-MNT"/>
+        </attribute>
+        <attribute name="created" value="2007-04-26T07:37:20Z"/>
+        <attribute name="last-modified" value="2010-07-26T09:57:32Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/95.142.105.192 - 95.142.105.199"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="95.142.105.192 - 95.142.105.199"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="95.142.105.192 - 95.142.105.199"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="NL"/>
+        <attribute name="admin-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-12-20T14:27:34Z"/>
+        <attribute name="last-modified" value="2018-12-20T14:27:34Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/95.142.105.200 - 95.142.105.207"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="95.142.105.200 - 95.142.105.207"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="95.142.105.200 - 95.142.105.207"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="NL"/>
+        <attribute name="admin-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-12-20T14:28:05Z"/>
+        <attribute name="last-modified" value="2018-12-20T14:28:05Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/95.142.105.208 - 95.142.105.215"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="95.142.105.208 - 95.142.105.215"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="95.142.105.208 - 95.142.105.215"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="NL"/>
+        <attribute name="admin-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-12-20T14:28:31Z"/>
+        <attribute name="last-modified" value="2018-12-20T14:28:31Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/95.142.105.216 - 95.142.105.223"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="95.142.105.216 - 95.142.105.223"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="95.142.105.216 - 95.142.105.223"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="NL"/>
+        <attribute name="admin-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="ATOM86-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/ATOM86-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="ATOM86-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ATOM86-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-12-20T14:29:00Z"/>
+        <attribute name="last-modified" value="2018-12-20T14:29:00Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/193.240.242.80 - 193.240.242.95"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="193.240.242.80 - 193.240.242.95"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="193.240.242.80 - 193.240.242.95"/>
+        <attribute name="netname" value="Microsoft"/>
+        <attribute name="descr" value="CUSTOMER LAN"/>
+        <attribute name="country" value="DK"/>
+        <attribute name="geoloc" value="55.763516 12.494943"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="remarks" value="all abuse reports to abuse@level3.com"/>
+        <attribute name="mnt-by" value="QUZAUK" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/QUZAUK"/>
+        </attribute>
+        <attribute name="mnt-lower" value="LEVEL3-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LEVEL3-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="QUZAUK" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/QUZAUK"/>
+        </attribute>
+        <attribute name="notify" value="ripehostmaster@eu.level3.net"/>
+        <attribute name="created" value="2017-08-22T14:42:07Z"/>
+        <attribute name="last-modified" value="2017-09-06T14:20:05Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/194.41.16.0 - 194.41.31.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="194.41.16.0 - 194.41.31.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="194.41.16.0 - 194.41.31.255"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="org" value="ORG-MA42-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="CK1116-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/CK1116-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MM10926-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MM10926-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PI"/>
+        <attribute name="mnt-by" value="RIPE-NCC-END-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-END-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="ICH-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ICH-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="ICH-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ICH-MNT"/>
+        </attribute>
+        <attribute name="mnt-domains" value="ICH-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/ICH-MNT"/>
+        </attribute>
+        <attribute name="created" value="2017-03-22T09:46:58Z"/>
+        <attribute name="last-modified" value="2017-03-22T09:46:58Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/194.224.40.168 - 194.224.40.175"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="194.224.40.168 - 194.224.40.175"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="194.224.40.168 - 194.224.40.175"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT IBERICA S.R.L."/>
+        <attribute name="descr" value="Internet Public Addresses"/>
+        <attribute name="country" value="ES"/>
+        <attribute name="admin-c" value="AC10490-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/AC10490-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="AC10490-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/AC10490-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="MAINT-AS3352" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MAINT-AS3352"/>
+        </attribute>
+        <attribute name="created" value="2006-09-21T11:31:23Z"/>
+        <attribute name="last-modified" value="2006-09-21T11:31:23Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/195.55.200.192 - 195.55.200.199"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="195.55.200.192 - 195.55.200.199"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="195.55.200.192 - 195.55.200.199"/>
+        <attribute name="netname" value="Microsoft"/>
+        <attribute name="descr" value="MICROSOFT IBERICA S.R.L."/>
+        <attribute name="descr" value="Internet Public Addresses"/>
+        <attribute name="country" value="ES"/>
+        <attribute name="admin-c" value="MF6965-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MF6965-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MF6965-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MF6965-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="MAINT-AS3352" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MAINT-AS3352"/>
+        </attribute>
+        <attribute name="created" value="2007-02-15T10:22:41Z"/>
+        <attribute name="last-modified" value="2007-02-15T10:22:41Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/195.55.200.200 - 195.55.200.207"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="195.55.200.200 - 195.55.200.207"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="195.55.200.200 - 195.55.200.207"/>
+        <attribute name="netname" value="Microsoft"/>
+        <attribute name="descr" value="MICROSOFT IBERICA S.R.L."/>
+        <attribute name="descr" value="Internet Public Addresses"/>
+        <attribute name="country" value="ES"/>
+        <attribute name="admin-c" value="MF6965-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MF6965-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MF6965-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MF6965-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="MAINT-AS3352" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MAINT-AS3352"/>
+        </attribute>
+        <attribute name="created" value="2007-02-15T10:22:41Z"/>
+        <attribute name="last-modified" value="2007-02-15T10:22:41Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/195.57.212.112 - 195.57.212.127"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="195.57.212.112 - 195.57.212.127"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="195.57.212.112 - 195.57.212.127"/>
+        <attribute name="netname" value="microsoft"/>
+        <attribute name="descr" value="MICROSOFT"/>
+        <attribute name="descr" value="Internet Public Addresses"/>
+        <attribute name="country" value="ES"/>
+        <attribute name="admin-c" value="AM2380-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/AM2380-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="AM2380-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/AM2380-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="MAINT-AS3352" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MAINT-AS3352"/>
+        </attribute>
+        <attribute name="created" value="2002-09-11T15:18:12Z"/>
+        <attribute name="last-modified" value="2002-09-11T15:18:12Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/212.73.235.120 - 212.73.235.127"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="212.73.235.120 - 212.73.235.127"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="212.73.235.120 - 212.73.235.127"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="CUSTOMER-LAN"/>
+        <attribute name="country" value="AE"/>
+        <attribute name="geoloc" value="25.031777 55.190023"/>
+        <attribute name="admin-c" value="MA21839-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MA21839-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MA21839-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MA21839-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="QUZAUK" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/QUZAUK"/>
+        </attribute>
+        <attribute name="mnt-by" value="LEVEL3-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LEVEL3-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-07-24T07:45:23Z"/>
+        <attribute name="last-modified" value="2018-07-24T07:45:23Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/212.199.174.192 - 212.199.174.223"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="212.199.174.192 - 212.199.174.223"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="212.199.174.192 - 212.199.174.223"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Please Send Abuse/SPAM complaints To Abuse@012.net.il"/>
+        <attribute name="country" value="IL"/>
+        <attribute name="admin-c" value="DR5299-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/DR5299-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="DR5299-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/DR5299-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="notify" value="dnsreg@012.net.il"/>
+        <attribute name="mnt-by" value="AS9116-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS9116-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="AS9116-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS9116-MNT"/>
+        </attribute>
+        <attribute name="created" value="2008-09-01T07:17:41Z"/>
+        <attribute name="last-modified" value="2008-09-01T07:17:41Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/213.149.97.48 - 213.149.97.63"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="213.149.97.48 - 213.149.97.63"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="213.149.97.48 - 213.149.97.63"/>
+        <attribute name="netname" value="Microsoft"/>
+        <attribute name="descr" value="Microsoft"/>
+        <attribute name="country" value="me"/>
+        <attribute name="admin-c" value="TMa29-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/TMa29-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="TMa29-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/TMa29-RIPE"/>
+        </attribute>
+        <attribute name="status" value="assigned PA"/>
+        <attribute name="mnt-by" value="AS8585-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS8585-MNT"/>
+        </attribute>
+        <attribute name="created" value="2010-11-26T14:32:05Z"/>
+        <attribute name="last-modified" value="2010-11-26T14:32:05Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/213.244.175.0 - 213.244.175.31"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="213.244.175.0 - 213.244.175.31"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="213.244.175.0 - 213.244.175.31"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="MICROSOFT"/>
+        <attribute name="country" value="NL"/>
+        <attribute name="admin-c" value="JMS95-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JMS95-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="JMS95-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JMS95-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="remarks" value="all abuse reports to abuse@level3.com"/>
+        <attribute name="mnt-by" value="LEVEL3-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LEVEL3-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="LEVEL3-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LEVEL3-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="LEVEL3-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/LEVEL3-MNT"/>
+        </attribute>
+        <attribute name="notify" value="ripehostmaster@eu.level3.net"/>
+        <attribute name="created" value="2010-09-03T09:43:55Z"/>
+        <attribute name="last-modified" value="2010-09-03T09:43:55Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/inetnum/217.207.6.136 - 217.207.6.143"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="217.207.6.136 - 217.207.6.143"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="217.207.6.136 - 217.207.6.143"/>
+        <attribute name="netname" value="MICROSOFT"/>
+        <attribute name="descr" value="Microsoft Business Solutions"/>
+        <attribute name="descr" value="Office"/>
+        <attribute name="descr" value="Chertsey"/>
+        <attribute name="country" value="GB"/>
+        <attribute name="admin-c" value="JB3038-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JB3038-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="EH92-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/EH92-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ASSIGNED PA"/>
+        <attribute name="mnt-by" value="EASYNET-UK-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/EASYNET-UK-MNT"/>
+        </attribute>
+        <attribute name="created" value="2003-10-08T14:21:28Z"/>
+        <attribute name="last-modified" value="2003-10-08T14:21:28Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-USER-RESOURCE"/>
+    </tags>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-GMM5-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-GMM5-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-GMM5-RIPE"/>
+        <attribute name="org-name" value="GIGAPIX MEMBER - Microsoft"/>
+        <attribute name="org-type" value="OTHER"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="Redmond"/>
+        <attribute name="address" value="WA"/>
+        <attribute name="address" value="98052"/>
+        <attribute name="address" value="US"/>
+        <attribute name="e-mail" value="abuse@microsoft.com"/>
+        <attribute name="abuse-c" value="MCFG5-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MCFG5-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="AS1930-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS1930-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="AS1930-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS1930-MNT"/>
+        </attribute>
+        <attribute name="created" value="2016-12-08T20:08:23Z"/>
+        <attribute name="last-modified" value="2017-10-30T14:39:54Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA1256-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MA1256-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MA1256-RIPE"/>
+        <attribute name="org-name" value="Microsoft B.V."/>
+        <attribute name="org-type" value="OTHER"/>
+        <attribute name="address" value="Evert van de Beekstraat 354"/>
+        <attribute name="address" value="1118CZ SCHIPHOL"/>
+        <attribute name="e-mail" value="Kevin.thomson@microsoft.com"/>
+        <attribute name="abuse-c" value="IR658-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/IR658-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="Eurofiber-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/Eurofiber-MNT"/>
+        </attribute>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="mnt-by" value="Eurofiber-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/Eurofiber-MNT"/>
+        </attribute>
+        <attribute name="created" value="2017-05-24T06:00:47Z"/>
+        <attribute name="last-modified" value="2017-05-24T06:04:45Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA42-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MA42-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MA42-RIPE"/>
+        <attribute name="org-name" value="Microsoft Limited"/>
+        <attribute name="org-type" value="LIR"/>
+        <attribute name="descr" value="Microsoft Corporation AS8075"/>
+        <attribute name="descr" value="To report suspected security issues specific to"/>
+        <attribute name="descr" value="traffic emanating from Microsoft online services,"/>
+        <attribute name="descr" value="including the distribution of malicious content"/>
+        <attribute name="descr" value="or other illicit or illegal material through a"/>
+        <attribute name="descr" value="Microsoft online service, please submit reports"/>
+        <attribute name="descr" value="to:"/>
+        <attribute name="descr" value="* https://cert.microsoft.com"/>
+        <attribute name="descr" value="For SPAM and other abuse issues, such as Microsoft"/>
+        <attribute name="descr" value="Accounts, please contact:"/>
+        <attribute name="descr" value="* abuse@microsoft.com"/>
+        <attribute name="descr" value="To report security vulnerabilities in Microsoft"/>
+        <attribute name="descr" value="products and services, please contact:"/>
+        <attribute name="descr" value="* secure@microsoft.com"/>
+        <attribute name="descr" value="For legal and law enforcement-related requests,"/>
+        <attribute name="descr" value="please contact:"/>
+        <attribute name="descr" value="* msndcc@microsoft.com"/>
+        <attribute name="descr" value="For routing, peering or DNS issues, please"/>
+        <attribute name="descr" value="contact:"/>
+        <attribute name="descr" value="* IOC@microsoft.com"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="WA 98052"/>
+        <attribute name="address" value="Redmond"/>
+        <attribute name="address" value="UNITED STATES"/>
+        <attribute name="phone" value="+1 425 882 8080"/>
+        <attribute name="fax-no" value="+1 425 936 7329"/>
+        <attribute name="e-mail" value="diquamar@microsoft.com"/>
+        <attribute name="abuse-c" value="MAC274-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MAC274-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-ref" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="mnt-by" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2004-04-17T12:18:10Z"/>
+        <attribute name="last-modified" value="2017-07-18T18:20:56Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MA920-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MA920-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MA920-RIPE"/>
+        <attribute name="org-name" value="Microsoft"/>
+        <attribute name="org-type" value="OTHER"/>
+        <attribute name="descr" value="Global Networking Services"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="98052 Redmond"/>
+        <attribute name="address" value="US"/>
+        <attribute name="phone" value="+14258828080"/>
+        <attribute name="e-mail" value="dschwar@microsoft.com"/>
+        <attribute name="admin-c" value="DS16451-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DS16451-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="DS16451-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DS16451-RIPE"/>
+        </attribute>
+        <attribute name="ref-nfy" value="mntripe@telia.net"/>
+        <attribute name="notify" value="mntripe@telia.net"/>
+        <attribute name="mnt-by" value="TELIANET-LIR" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/TELIANET-LIR"/>
+        </attribute>
+        <attribute name="mnt-ref" value="TELIANET-LIR" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/TELIANET-LIR"/>
+        </attribute>
+        <attribute name="created" value="2014-09-15T13:12:15Z"/>
+        <attribute name="last-modified" value="2017-10-30T16:31:41Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MDMG3-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MDMG3-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MDMG3-RIPE"/>
+        <attribute name="org-name" value="Microsoft Deutschland MCIO GmbH"/>
+        <attribute name="org-type" value="LIR"/>
+        <attribute name="address" value="Konrad-Zuse.Straße 1"/>
+        <attribute name="address" value="85716"/>
+        <attribute name="address" value="Unterschleißheim"/>
+        <attribute name="address" value="GERMANY"/>
+        <attribute name="phone" value="+49 89 3176 1234"/>
+        <attribute name="e-mail" value="diquamar@microsoft.com"/>
+        <attribute name="admin-c" value="DH5902-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5902-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="abuse-c" value="MAC274-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MAC274-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-ref" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="mnt-by" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2015-06-12T08:17:47Z"/>
+        <attribute name="last-modified" value="2016-10-06T15:50:38Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MDNB1-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MDNB1-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MDNB1-RIPE"/>
+        <attribute name="org-name" value="Microsoft DC Netherlands B.V."/>
+        <attribute name="org-type" value="OTHER"/>
+        <attribute name="address" value="Evert van de Beekstraat 354"/>
+        <attribute name="address" value="1118CZ SCHIPHOL"/>
+        <attribute name="e-mail" value="Kevin.thomson@microsoft.com"/>
+        <attribute name="abuse-c" value="IR658-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/IR658-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MRPA3-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="Eurofiber-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/Eurofiber-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="Eurofiber-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/Eurofiber-MNT"/>
+        </attribute>
+        <attribute name="created" value="2018-02-14T11:39:23Z"/>
+        <attribute name="last-modified" value="2018-02-14T11:39:23Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-MMO4-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MMO4-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MMO4-RIPE"/>
+        <attribute name="org-name" value="Microsoft Mobile Oy"/>
+        <attribute name="org-type" value="OTHER"/>
+        <attribute name="address" value="Keilalahdentie 2-4"/>
+        <attribute name="address" value="02150 Espoo"/>
+        <attribute name="phone" value="+358 942724477"/>
+        <attribute name="e-mail" value="j5leinon@microsoft.com"/>
+        <attribute name="admin-c" value="JL9391-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JL9391-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="JL9391-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JL9391-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="DATANET-NOC" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/DATANET-NOC"/>
+        </attribute>
+        <attribute name="mnt-by" value="DATANET-NOC" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/DATANET-NOC"/>
+        </attribute>
+        <attribute name="created" value="2015-03-25T07:15:30Z"/>
+        <attribute name="last-modified" value="2015-03-25T07:15:30Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/organisation/ORG-NMP1-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-NMP1-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-NMP1-RIPE"/>
+        <attribute name="org-name" value="Microsoft Mobile Oy"/>
+        <attribute name="org-type" value="LIR"/>
+        <attribute name="address" value="Visiokatu 3"/>
+        <attribute name="address" value="FIN-33720"/>
+        <attribute name="address" value="Tampere"/>
+        <attribute name="address" value="FINLAND"/>
+        <attribute name="phone" value="+1 425 882 8080"/>
+        <attribute name="fax-no" value="+1 425 936 7329"/>
+        <attribute name="admin-c" value="DH5439-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/DH5439-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="mnt-ref" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="e-mail" value="iphostmaster@microsoft.com"/>
+        <attribute name="abuse-c" value="MAC274-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MAC274-RIPE"/>
+        </attribute>
+        <attribute name="created" value="2004-04-17T11:20:14Z"/>
+        <attribute name="last-modified" value="2020-03-13T22:26:12Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MAC274-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MAC274-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="Microsoft Abuse Contact"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="Redmond, WA 98052"/>
+        <attribute name="e-mail" value="abuse@microsoft.com"/>
+        <attribute name="nic-hdl" value="MAC274-RIPE"/>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2014-08-26T16:18:28Z"/>
+        <attribute name="last-modified" value="2014-09-29T14:05:13Z"/>
+        <attribute name="source" value="RIPE"/>
+        <attribute name="abuse-mailbox" value="abuse@microsoft.com"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MCFG5-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MCFG5-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="MICROSOFT CONTACTS FOR GIGAPIX"/>
+        <attribute name="address" value="MSFT"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="Redmond"/>
+        <attribute name="address" value="WA"/>
+        <attribute name="address" value="98052"/>
+        <attribute name="address" value="United States"/>
+        <attribute name="remarks" value="*** whois.arin.net 20151203 ***"/>
+        <attribute name="e-mail" value="abuse@microsoft.com"/>
+        <attribute name="abuse-mailbox" value="abuse@microsoft.com"/>
+        <attribute name="nic-hdl" value="MCFG5-RIPE"/>
+        <attribute name="mnt-by" value="AS1930-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS1930-MNT"/>
+        </attribute>
+        <attribute name="created" value="2015-12-03T09:27:46Z"/>
+        <attribute name="last-modified" value="2016-12-08T20:08:23Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MMTN1-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MMTN1-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="Microsoft Mobile Test Network Admins"/>
+        <attribute name="address" value="Visiokatu 3"/>
+        <attribute name="address" value="33720 Tampere"/>
+        <attribute name="address" value="Finland"/>
+        <attribute name="e-mail" value="mstn@microsoft.com"/>
+        <attribute name="admin-c" value="JPL2015-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JPL2015-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="JL9357-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/JL9357-RIPE"/>
+        </attribute>
+        <attribute name="nic-hdl" value="MMTN1-RIPE"/>
+        <attribute name="mnt-by" value="MNT-MSTN-TRE" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MNT-MSTN-TRE"/>
+        </attribute>
+        <attribute name="created" value="2015-03-17T11:47:58Z"/>
+        <attribute name="last-modified" value="2015-03-17T11:51:26Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MOC65-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MOC65-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="Microsoft Operations Center"/>
+        <attribute name="address" value="Redmond, WA, USA"/>
+        <attribute name="e-mail" value="mocalert@microsoft.com"/>
+        <attribute name="phone" value="+1 (425) 705-2686"/>
+        <attribute name="nic-hdl" value="MOC65-RIPE"/>
+        <attribute name="mnt-by" value="IDH-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/IDH-MNT"/>
+        </attribute>
+        <attribute name="admin-c" value="SH13228-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/SH13228-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="SH13228-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/SH13228-RIPE"/>
+        </attribute>
+        <attribute name="created" value="2015-11-05T09:16:56Z"/>
+        <attribute name="last-modified" value="2015-11-05T09:16:56Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/role/MRPA3-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MRPA3-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="Microsoft Routing, Peering, and DNS"/>
+        <attribute name="address" value="One Microsoft Way"/>
+        <attribute name="address" value="Redmond, WA 98052"/>
+        <attribute name="e-mail" value="ioc@microsoft.com"/>
+        <attribute name="nic-hdl" value="MRPA3-RIPE"/>
+        <attribute name="mnt-by" value="MICROSOFT-MAINT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/MICROSOFT-MAINT"/>
+        </attribute>
+        <attribute name="created" value="2014-08-26T16:25:24Z"/>
+        <attribute name="last-modified" value="2014-08-26T16:25:24Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="person">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MB39887-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MB39887-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="person" value="Microsoft BV"/>
+        <attribute name="address" value="NL"/>
+        <attribute name="e-mail" value="yokeat@microsoft.com"/>
+        <attribute name="phone" value="+31205001922"/>
+        <attribute name="notify" value="kpn-ip-office@kpn.com"/>
+        <attribute name="mnt-by" value="AS286-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS286-MNT"/>
+        </attribute>
+        <attribute name="nic-hdl" value="MB39887-RIPE"/>
+        <attribute name="created" value="2015-07-10T12:02:47Z"/>
+        <attribute name="last-modified" value="2015-07-10T12:02:47Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+<object type="person">
+    <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/person/MB41151-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MB41151-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="person" value="Microsoft BV"/>
+        <attribute name="address" value="NL"/>
+        <attribute name="e-mail" value="kethomso@microsoft.com"/>
+        <attribute name="phone" value="+31620019268"/>
+        <attribute name="notify" value="kpn-ip-office@kpn.com"/>
+        <attribute name="mnt-by" value="AS286-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="https://rest.db.ripe.net/ripe/mntner/AS286-MNT"/>
+        </attribute>
+        <attribute name="nic-hdl" value="MB41151-RIPE"/>
+        <attribute name="created" value="2016-02-23T09:09:23Z"/>
+        <attribute name="last-modified" value="2016-02-23T09:09:23Z"/>
+        <attribute name="source" value="RIPE"/>
+    </attributes>
+</object>
+</objects>
+<terms-and-conditions xlink:type="locator" xlink:href="http://www.ripe.net/db/support/db-terms-conditions.pdf"/>
+<version version="1.97.1" timestamp="2020-04-22T13:24:08Z" commit-id="00149af"/>
+</whois-resources>

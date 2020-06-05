@@ -1,0 +1,32 @@
+#!/bin/bash
+########################
+# This reads in AS_* csv
+# and queries RADB for the ip ranges
+########################
+RADB_QUERY(){
+        COMPANY=$1
+        ASNUM=$2
+        shift;
+        echo 'Querying WHOIS for' $ASNUM
+        whois -h whois.radb.net -- "-i origin $ASNUM" | grep ^route | while read -r ip; do
+			ip=${ip//[[:blank:]]/}
+			ip=${ip#"route"}
+			ip=${ip#"6:"}
+			ip=${ip#":"}
+			ip=${ip//[[:blank:]]/}
+			echo "$ip belongs to $COMPANY"
+        done
+}
+
+
+INPUT=$1
+OLDIFS=$IFS
+IFS=','
+[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
+while read f1 f2
+do
+	echo "Company: $f1"
+	echo "ASN: $f2"
+	RADB_QUERY $f1 $f2
+done < $INPUT
+IFS=$OLDIFS
