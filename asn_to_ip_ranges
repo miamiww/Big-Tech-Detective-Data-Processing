@@ -15,7 +15,7 @@ RADB_QUERY(){
 			ip=${ip#":"}
 			ip=${ip//[[:blank:]]/}
 			echo "$ip belongs to $COMPANY, adding to record"
-            echo "$COMPANY,$ip" >> ip_ranges.csv
+            echo "$COMPANY,$ip" >> ip_ranges_asn_only.csv
         done
 }
 
