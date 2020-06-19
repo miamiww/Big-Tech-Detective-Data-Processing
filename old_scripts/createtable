@@ -1,0 +1,10 @@
+#!/bin/bash
+# only run this once, it creates a new table in the database
+echo "
+use ipdatabase;
+create table ipblocks (
+id UUID,
+Company text,
+CIDR text,
+PRIMARY KEY(id)
+);" | cqlsh --cqlversion 3.4.2
