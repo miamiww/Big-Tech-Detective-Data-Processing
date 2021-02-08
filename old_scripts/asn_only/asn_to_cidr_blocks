@@ -1,7 +1,7 @@
 #!/bin/bash
 ########################
-# This reads in AS_* csv
-# and queries RADB for the ip ranges
+# This converts AS_* csv
+# into ip_ranges csv
 ########################
 RADB_QUERY(){
         COMPANY=$1
@@ -14,7 +14,8 @@ RADB_QUERY(){
 			ip=${ip#"6:"}
 			ip=${ip#":"}
 			ip=${ip//[[:blank:]]/}
-			echo "$ip belongs to $COMPANY"
+			echo "$ip belongs to $COMPANY, adding to record"
+            echo "$COMPANY,$ip" >> ip_ranges_asn_only_no_apple.csv
         done
 }
 
