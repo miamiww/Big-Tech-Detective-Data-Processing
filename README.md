@@ -17,11 +17,14 @@ Amazon,54.192.4.0/23
 ... and so on
 ```
 
-The outputted csv is then added to a table on a remote postgress server, accessible via the following api:
+The outputted csv is then added to a table on a remote postgress server.
 
-* [https://bigtechdetective.club/](https://bigtechdetective.club/) returns a heartbeat
+## API
+The data are accessible via the following api:
 
-* [/ips](https://bigtechdetective.club/ips) returns the whole dataset in json
+### [https://bigtechdetective.club/](https://bigtechdetective.club/) returns a heartbeat
+
+### [/ips](https://bigtechdetective.club/ips) returns the whole dataset in json
 
 ```json
 {
@@ -36,7 +39,7 @@ The outputted csv is then added to a table on a remote postgress server, accessi
 }
 ```
 
-* [https://bigtechdetective.club/ips/{ip_address}](https://bigtechdetective.club/ips/{ip_address}) gives returns a response indicating whether or not ip_address is in the dataset
+### [https://bigtechdetective.club/ips/{ip_address}](https://bigtechdetective.club/ips/{ip_address}) gives returns a response indicating whether or not ip_address is in the dataset
 
 for example, [/ips/54.192.0.0](https://bigtechdetective.club/ips/54.192.0.0) returns
 
